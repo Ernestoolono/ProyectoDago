@@ -1,0 +1,60 @@
+*{
+    margin: 3;
+    padding: 3;
+}
+
+body {
+    background-image:url(Imagen\ de\ grados\ centigrados.jpg);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 99%;
+    background-size:cover;
+}
+
+#contenedor {
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    background-color: silver;
+}
+
+h2 {
+    color: black;
+    font-size: 1.5em;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.caja1, .caja2 {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+#boton {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: black;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#boton:hover {
+    background-color: orange;
+}
+
+#resultado {
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+}

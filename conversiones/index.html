@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidora de Temperatura</title>
+    <script src="operacion.js" defer></script> 
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="contenedor">
+        <h2>.:Conversor de Temperatura:.</h2>
+        <hr>
+        <form>
+            <label for="grados">Cantidad de Grados:</label>
+            <input class="caja1" type="number" id="grados" required><br><br>
+            <label for="tipo">Tipo de Conversión:</label>
+            <select class="caja2" id="tipo">
+                <option value="celsiusToFahrenheit" selected>Celsius a Fahrenheit</option>
+                <option value="fahrenheitToCelsius">Fahrenheit a Celsius</option>
+            </select><br><br>
+            <input type="button" id="boton" value="Convertir" onclick="convertir()"><br>
+        </form>
+        <hr>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>
